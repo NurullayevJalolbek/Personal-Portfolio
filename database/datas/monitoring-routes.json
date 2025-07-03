@@ -1,0 +1,366 @@
+[
+    {
+        "uri": "api/about-agency",
+        "method": "GET",
+        "field_code": "about-agency",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/management",
+        "method": "GET",
+        "field_code": "about-agency",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/central-hardwares",
+        "method": "GET",
+        "field_code": "about-agency",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/regional-offices",
+        "method": "GET",
+        "field_code": "about-agency",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/system-organizations",
+        "method": "GET",
+        "field_code": "about-agency",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/vacancies",
+        "method": "GET",
+        "field_code": "about-agency",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/kpi/across-years",
+        "method": "GET",
+        "field_code": "statistic-report",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/kpi/across-sectors",
+        "method": "GET",
+        "field_code": "statistic-report",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/kpi/efficiency",
+        "method": "GET",
+        "field_code": "statistic-report",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/kpi/damage",
+        "method": "GET",
+        "field_code": "statistic-report",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/kpi/net-profit",
+        "method": "GET",
+        "field_code": "statistic-report",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/kpi/net-income",
+        "method": "GET",
+        "field_code": "statistic-report",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/kpi/financial-status",
+        "method": "GET",
+        "field_code": "statistic-report",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/kpi/submitted-report",
+        "method": "GET",
+        "field_code": "statistic-report",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/kpi/indicator",
+        "method": "GET",
+        "field_code": "statistic-report",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/companies/bankruptcy/count",
+        "method": "GET",
+        "field_code": "insolvent",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/companies/bankruptcy/regional",
+        "method": "GET",
+        "field_code": "insolvent",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/companies/bankruptcy/ads",
+        "method": "GET",
+        "field_code": "insolvent",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/companies/bankruptcy/ads/search",
+        "method": "GET",
+        "field_code": "insolvent",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/companies/bankruptcy/ads/show",
+        "method": "GET",
+        "field_code": "insolvent",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/bankruptcy/procedure",
+        "method": "GET",
+        "field_code": "insolvent",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/bankruptcy/directions",
+        "method": "GET",
+        "field_code": "insolvent",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/rating-court-admins",
+        "method": "GET",
+        "field_code": "insolvent",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/companies/count",
+        "method": "GET",
+        "field_code": "register-enterprises",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/learning",
+        "method": "GET",
+        "field_code": "insolvent",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/companies/show",
+        "method": "GET",
+        "field_code": "register-enterprises",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/companies",
+        "method": "GET",
+        "field_code": "register-enterprises",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/news",
+        "method": "GET",
+        "field_code": "news-ads",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/ads",
+        "method": "GET",
+        "field_code": "news-ads",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/ads/show",
+        "method": "GET",
+        "field_code": "news-ads",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/activity-videos",
+        "method": "GET",
+        "field_code": "activity-videos",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/open-data",
+        "method": "GET",
+        "field_code": "open-data",
+        "table_name": "general-datas",
+        "status": true
+    },
+    {
+        "uri": "api/sub-services/interactive-services",
+        "method": "GET",
+        "field_code": "interactive-services",
+        "table_name": "services",
+        "status": true
+    },
+    {
+        "uri": "api/realtors/orgs",
+        "method": "GET",
+        "field_code": "appraisal-realtorship",
+        "table_name": "services",
+        "status": true
+    },
+    {
+        "uri": "api/realtor-evaluators",
+        "method": "GET",
+        "field_code": "appraisal-realtorship",
+        "table_name": "services",
+        "status": true
+    },
+    {
+        "uri": "api/evaluators/orgs",
+        "method": "GET",
+        "field_code": "appraisal-realtorship",
+        "table_name": "services",
+        "status": true
+    },
+    {
+        "uri": "api/verify-certificate",
+        "method": "GET",
+        "field_code": "appraisal-realtorship",
+        "table_name": "services",
+        "status": true
+    },
+    {
+        "uri": "api/cns/code",
+        "method": "GET",
+        "field_code": "corporate-management",
+        "table_name": "services",
+        "status": true
+    },
+    {
+        "uri": "api/cns/enterprises",
+        "method": "GET",
+        "field_code": "corporate-management",
+        "table_name": "services",
+        "status": true
+    },
+    {
+        "uri": "api/cns/enterprises/search",
+        "method": "GET",
+        "field_code": "corporate-management",
+        "table_name": "services",
+        "status": true
+    },
+    {
+        "uri": "api/cns/common-requirements",
+        "method": "GET",
+        "field_code": "corporate-management",
+        "table_name": "services",
+        "status": true
+    },
+    {
+        "uri": "api/check-attestation",
+        "method": "GET",
+        "field_code": "attestation-check",
+        "table_name": "services",
+        "status": true
+    },
+    {
+        "uri": "api/applications",
+        "method": "GET",
+        "field_code": "apply-online",
+        "table_name": "services",
+        "status": true
+    },
+    {
+        "uri": "api/applications",
+        "method": "POST",
+        "field_code": "apply-online",
+        "table_name": "services",
+        "status": true
+    },
+    {
+        "uri": "api/applications/{id}",
+        "method": "GET",
+        "field_code": "apply-online",
+        "table_name": "services",
+        "status": true
+    },
+    {
+        "uri": "api/auction/shares",
+        "method": "GET",
+        "field_code": "e-auction",
+        "table_name": "services",
+        "status": true
+    },
+    {
+        "uri": "api/auction/buildings",
+        "method": "GET",
+        "field_code": "e-auction",
+        "table_name": "services",
+        "status": true
+    },
+    {
+        "uri": "api/auction/rent-lands",
+        "method": "GET",
+        "field_code": "e-auction",
+        "table_name": "services",
+        "status": true
+    },
+    {
+        "uri": "api/auction/ownership-lands",
+        "method": "GET",
+        "field_code": "e-auction",
+        "table_name": "services",
+        "status": true
+    },
+    {
+        "uri": "api/auction/rent-objects",
+        "method": "GET",
+        "field_code": "e-auction",
+        "table_name": "services",
+        "status": true
+    },
+    {
+        "uri": "api/companies/bankruptcy",
+        "method": "GET",
+        "field_code": "inability-pay",
+        "table_name": "services",
+        "status": true
+    },
+    {
+        "uri": "api/companies/bankruptcy/show",
+        "method": "GET",
+        "field_code": "inability-pay",
+        "table_name": "services",
+        "status": true
+    }
+]

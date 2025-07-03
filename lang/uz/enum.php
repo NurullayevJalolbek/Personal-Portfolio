@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'active' => 'Faol',
+    'inactive' => 'Faol emas',
+    'admin' => 'Admin',
+    'user' => 'Foydalanuvchi',
+    'sent' => 'Yuborilgan',
+    'process' => 'Jarayonda',
+    'wrong' => 'Xato',
+    'read' => 'O\'qilgan',
+    'answered' => 'Javob berilgan',
+    'legal' => 'Yuridik shaxs',
+    'physical' => 'Jismoniy shaxs',
+    'sms' => 'SMS xabarnoma',
+    'push' => 'PUSH xabarnoma',
+    'phone' => 'Telefon raqam',
+    'telegram' => 'Telegram',
+    'telegram_bot' => 'Telegram bot',
+    'email' => 'E-pochta',
+    'web_site' => 'Web sayt',
+    'facebook' => 'Facebook',
+    'you_tube' => 'YouTube',
+    'services' => 'Xizmatlar',
+    'general-datas' => 'Umumiy ma\'lumotlar',
+];

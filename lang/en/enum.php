@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'active' => 'Active',
+    'inactive' => 'Inactive',
+    'admin' => 'Admin',
+    'user' => 'User',
+    'sent' => 'Sent',
+    'process' => 'In process',
+    'wrong' => 'Error',
+    'read' => 'Read',
+    'answered' => 'Answered',
+    'legal' => 'Legal entity',
+    'physical' => 'Individual',
+    'sms' => 'SMS notification',
+    'push' => 'PUSH notification',
+    'phone' => 'Phone number',
+    'telegram' => 'Telegram',
+    'telegram_bot' => 'Telegram bot',
+    'email' => 'Email',
+    'web_site' => 'Website',
+    'facebook' => 'Facebook',
+    'you_tube' => 'YouTube',
+    'services' => 'Services',
+    'general-datas' => 'General information',
+];

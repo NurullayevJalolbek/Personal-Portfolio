@@ -1,0 +1,1307 @@
+[
+    {
+        "name": {
+            "uz": "dashboard",
+            "ru": null,
+            "en": null
+        },
+        "uri": "/",
+        "method": "GET",
+        "default": true
+    },
+    {
+        "name": {
+            "uz": "logout",
+            "ru": null,
+            "en": null
+        },
+        "uri": "logout",
+        "method": "DELETE",
+        "default": true
+    },
+    {
+        "name": {
+            "uz": "profile.edit",
+            "ru": null,
+            "en": null
+        },
+        "uri": "profile",
+        "method": "GET",
+        "default": true
+    },
+    {
+        "name": {
+            "uz": "profile.update",
+            "ru": null,
+            "en": null
+        },
+        "uri": "profile",
+        "method": "PUT",
+        "default": true
+    },
+    {
+        "name": {
+            "uz": "about.edit",
+            "ru": null,
+            "en": null
+        },
+        "uri": "about",
+        "method": "GET",
+        "default": false,
+        "roles": [
+            "moderator"
+        ]
+    },
+    {
+        "name": {
+            "uz": "about.contacts",
+            "ru": null,
+            "en": null
+        },
+        "uri": "about/contacts",
+        "method": "GET",
+        "default": false,
+        "roles": [
+            "moderator"
+        ]
+    },
+    {
+        "name": {
+            "uz": "about.contacts.store",
+            "ru": null,
+            "en": null
+        },
+        "uri": "about/contacts/{about}",
+        "method": "PUT",
+        "default": false,
+        "roles": [
+            "moderator"
+        ]
+    },
+    {
+        "name": {
+            "uz": "about.privacy-policy",
+            "ru": null,
+            "en": null
+        },
+        "uri": "about/privacy-policy",
+        "method": "GET",
+        "default": false,
+        "roles": [
+            "moderator"
+        ]
+    },
+    {
+        "name": {
+            "uz": "about.privacy-policy.store",
+            "ru": null,
+            "en": null
+        },
+        "uri": "about/privacy-policy/{about}",
+        "method": "PUT",
+        "default": false,
+        "roles": [
+            "moderator"
+        ]
+    },
+    {
+        "name": {
+            "uz": "about.public-offerta",
+            "ru": null,
+            "en": null
+        },
+        "uri": "about/public-offerta",
+        "method": "GET",
+        "default": false,
+        "roles": [
+            "moderator"
+        ]
+    },
+    {
+        "name": {
+            "uz": "about.public-offerta.store",
+            "ru": null,
+            "en": null
+        },
+        "uri": "about/public-offerta/{about}",
+        "method": "PUT",
+        "default": false,
+        "roles": [
+            "moderator"
+        ]
+    },
+    {
+        "name": {
+            "uz": "about.update",
+            "ru": null,
+            "en": null
+        },
+        "uri": "about/{about}",
+        "method": "PUT",
+        "default": false,
+        "roles": [
+            "moderator"
+        ]
+    },
+    {
+        "name": {
+            "uz": "user-permissions.list",
+            "ru": null,
+            "en": null
+        },
+        "uri": "user-permissions/{user}",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "user-permissions.sync",
+            "ru": null,
+            "en": null
+        },
+        "uri": "user-permissions/{user}/sync",
+        "method": "PUT",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "user-permissions.status",
+            "ru": null,
+            "en": null
+        },
+        "uri": "user-permissions/{permission}/status",
+        "method": "PUT",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "role-permissions.list",
+            "ru": null,
+            "en": null
+        },
+        "uri": "role-permissions/{role}",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "role-permissions.sync",
+            "ru": null,
+            "en": null
+        },
+        "uri": "role-permissions/{role}/sync",
+        "method": "PUT",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "role-permissions.status",
+            "ru": null,
+            "en": null
+        },
+        "uri": "role-permissions/{permission}/status",
+        "method": "PUT",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "users.index",
+            "ru": null,
+            "en": null
+        },
+        "uri": "users",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "users.show",
+            "ru": null,
+            "en": null
+        },
+        "uri": "users/{user}",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "users.notifications",
+            "ru": null,
+            "en": null
+        },
+        "uri": "users/{user}/notifications",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "users.status",
+            "ru": null,
+            "en": null
+        },
+        "uri": "users/{user}/status",
+        "method": "PUT",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "users.role.status",
+            "ru": null,
+            "en": null
+        },
+        "uri": "users/role/{role}/status",
+        "method": "PUT",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "users.destroy",
+            "ru": null,
+            "en": null
+        },
+        "uri": "users/{user}",
+        "method": "DELETE",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "action-logs.index",
+            "ru": null,
+            "en": null
+        },
+        "uri": "action-logs",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "action-logs.show",
+            "ru": null,
+            "en": null
+        },
+        "uri": "action-logs/{log}",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "activity-logs.index",
+            "ru": null,
+            "en": null
+        },
+        "uri": "activity-logs",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "activity-logs.show",
+            "ru": null,
+            "en": null
+        },
+        "uri": "activity-logs/{log}",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "http-logs.index",
+            "ru": null,
+            "en": null
+        },
+        "uri": "http-logs",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "http-logs.show",
+            "ru": null,
+            "en": null
+        },
+        "uri": "http-logs/{log}",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "exception-logs.index",
+            "ru": null,
+            "en": null
+        },
+        "uri": "exception-logs",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "exception-logs.show",
+            "ru": null,
+            "en": null
+        },
+        "uri": "exception-logs/{log}",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "exception-logs.occurrences",
+            "ru": null,
+            "en": null
+        },
+        "uri": "exception-logs/{family}/occurrences",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "exception-logs.resolved",
+            "ru": null,
+            "en": null
+        },
+        "uri": "exception-logs/{log}/resolved",
+        "method": "PUT",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "applications.index",
+            "ru": null,
+            "en": null
+        },
+        "uri": "applications",
+        "method": "GET",
+        "default": false,
+        "roles": [
+            "chancellery"
+        ]
+    },
+    {
+        "name": {
+            "uz": "applications.show",
+            "ru": null,
+            "en": null
+        },
+        "uri": "applications/{application}",
+        "method": "GET",
+        "default": false,
+        "roles": [
+            "chancellery"
+        ]
+    },
+    {
+        "name": {
+            "uz": "applications.process",
+            "ru": null,
+            "en": null
+        },
+        "uri": "applications/{application}/process",
+        "method": "PUT",
+        "default": false,
+        "roles": [
+            "chancellery"
+        ]
+    },
+    {
+        "name": {
+            "uz": "applications.answer",
+            "ru": null,
+            "en": null
+        },
+        "uri": "applications/{application}/answer",
+        "method": "PUT",
+        "default": false,
+        "roles": [
+            "chancellery"
+        ]
+    },
+    {
+        "name": {
+            "uz": "admins.sessions",
+            "ru": null,
+            "en": null
+        },
+        "uri": "admins/{admin}/sessions",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "statistics.index",
+            "ru": null,
+            "en": null
+        },
+        "uri": "statistics",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "notifications.index",
+            "ru": null,
+            "en": null
+        },
+        "uri": "notifications",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "notifications.create",
+            "ru": null,
+            "en": null
+        },
+        "uri": "notifications/create",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "notifications.by-status",
+            "ru": null,
+            "en": null
+        },
+        "uri": "notifications/{notification}/by-status/{status?}",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "notifications.store",
+            "ru": null,
+            "en": null
+        },
+        "uri": "notifications",
+        "method": "POST",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "notifications.show",
+            "ru": null,
+            "en": null
+        },
+        "uri": "notifications/{notification}",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "languages.index",
+            "ru": null,
+            "en": null
+        },
+        "uri": "languages",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "integration-systems.index",
+            "ru": null,
+            "en": null
+        },
+        "uri": "integration-systems",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "integration-systems.edit",
+            "ru": null,
+            "en": null
+        },
+        "uri": "integration-systems/{system}/edit",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "integration-systems.update",
+            "ru": null,
+            "en": null
+        },
+        "uri": "integration-systems/{system}",
+        "method": "PUT",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "admins.index",
+            "ru": null,
+            "en": null
+        },
+        "uri": "admins",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "admins.create",
+            "ru": null,
+            "en": null
+        },
+        "uri": "admins/create",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "admins.store",
+            "ru": null,
+            "en": null
+        },
+        "uri": "admins",
+        "method": "POST",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "admins.edit",
+            "ru": null,
+            "en": null
+        },
+        "uri": "admins/{admin}/edit",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "admins.update",
+            "ru": null,
+            "en": null
+        },
+        "uri": "admins/{admin}",
+        "method": "PUT",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "admins.destroy",
+            "ru": null,
+            "en": null
+        },
+        "uri": "admins/{admin}",
+        "method": "DELETE",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "roles.index",
+            "ru": null,
+            "en": null
+        },
+        "uri": "roles",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "roles.create",
+            "ru": null,
+            "en": null
+        },
+        "uri": "roles/create",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "roles.store",
+            "ru": null,
+            "en": null
+        },
+        "uri": "roles",
+        "method": "POST",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "roles.edit",
+            "ru": null,
+            "en": null
+        },
+        "uri": "roles/{role}/edit",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "roles.update",
+            "ru": null,
+            "en": null
+        },
+        "uri": "roles/{role}",
+        "method": "PUT",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "roles.destroy",
+            "ru": null,
+            "en": null
+        },
+        "uri": "roles/{role}",
+        "method": "DELETE",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "references.index",
+            "ru": null,
+            "en": null
+        },
+        "uri": "references",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "references.create",
+            "ru": null,
+            "en": null
+        },
+        "uri": "references/create",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "references.store",
+            "ru": null,
+            "en": null
+        },
+        "uri": "references",
+        "method": "POST",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "references.edit",
+            "ru": null,
+            "en": null
+        },
+        "uri": "references/{reference}/edit",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "references.update",
+            "ru": null,
+            "en": null
+        },
+        "uri": "references/{reference}",
+        "method": "PUT",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "references.destroy",
+            "ru": null,
+            "en": null
+        },
+        "uri": "references/{reference}",
+        "method": "DELETE",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "general-datas.index",
+            "ru": null,
+            "en": null
+        },
+        "uri": "general-datas",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "general-datas.create",
+            "ru": null,
+            "en": null
+        },
+        "uri": "general-datas/create",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "general-datas.store",
+            "ru": null,
+            "en": null
+        },
+        "uri": "general-datas",
+        "method": "POST",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "general-datas.edit",
+            "ru": null,
+            "en": null
+        },
+        "uri": "general-datas/{general_data}/edit",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "general-datas.update",
+            "ru": null,
+            "en": null
+        },
+        "uri": "general-datas/{general_data}",
+        "method": "PUT",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "general-datas.destroy",
+            "ru": null,
+            "en": null
+        },
+        "uri": "general-datas/{general_data}",
+        "method": "DELETE",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "services.index",
+            "ru": null,
+            "en": null
+        },
+        "uri": "services",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "services.create",
+            "ru": null,
+            "en": null
+        },
+        "uri": "services/create",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "services.store",
+            "ru": null,
+            "en": null
+        },
+        "uri": "services",
+        "method": "POST",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "services.edit",
+            "ru": null,
+            "en": null
+        },
+        "uri": "services/{service}/edit",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "services.update",
+            "ru": null,
+            "en": null
+        },
+        "uri": "services/{service}",
+        "method": "PUT",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "services.destroy",
+            "ru": null,
+            "en": null
+        },
+        "uri": "services/{service}",
+        "method": "DELETE",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "interactive-services.index",
+            "ru": null,
+            "en": null
+        },
+        "uri": "interactive-services",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "interactive-services.create",
+            "ru": null,
+            "en": null
+        },
+        "uri": "interactive-services/create",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "interactive-services.store",
+            "ru": null,
+            "en": null
+        },
+        "uri": "interactive-services",
+        "method": "POST",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "interactive-services.edit",
+            "ru": null,
+            "en": null
+        },
+        "uri": "interactive-services/{service}/edit",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "interactive-services.update",
+            "ru": null,
+            "en": null
+        },
+        "uri": "interactive-services/{service}",
+        "method": "PUT",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "interactive-services.destroy",
+            "ru": null,
+            "en": null
+        },
+        "uri": "interactive-services/{service}",
+        "method": "DELETE",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "permissions.index",
+            "ru": null,
+            "en": null
+        },
+        "uri": "permissions",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "permissions.create",
+            "ru": null,
+            "en": null
+        },
+        "uri": "permissions/create",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "permissions.store",
+            "ru": null,
+            "en": null
+        },
+        "uri": "permissions",
+        "method": "POST",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "permissions.edit",
+            "ru": null,
+            "en": null
+        },
+        "uri": "permissions/{permission}/edit",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "permissions.update",
+            "ru": null,
+            "en": null
+        },
+        "uri": "permissions/{permission}",
+        "method": "PUT",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "permissions.destroy",
+            "ru": null,
+            "en": null
+        },
+        "uri": "permissions/{permission}",
+        "method": "DELETE",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "monitoring-routes.index",
+            "ru": null,
+            "en": null
+        },
+        "uri": "monitoring-routes",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "monitoring-routes.create",
+            "ru": null,
+            "en": null
+        },
+        "uri": "monitoring-routes/create",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "monitoring-routes.store",
+            "ru": null,
+            "en": null
+        },
+        "uri": "monitoring-routes",
+        "method": "POST",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "monitoring-routes.edit",
+            "ru": null,
+            "en": null
+        },
+        "uri": "monitoring-routes/{monitoring_route}/edit",
+        "method": "GET",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "monitoring-routes.update",
+            "ru": null,
+            "en": null
+        },
+        "uri": "monitoring-routes/{monitoring_route}",
+        "method": "PUT",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "monitoring-routes.destroy",
+            "ru": null,
+            "en": null
+        },
+        "uri": "monitoring-routes/{monitoring_route}",
+        "method": "DELETE",
+        "default": false
+    },
+    {
+        "name": {
+            "uz": "api/logout",
+            "ru": null,
+            "en": null
+        },
+        "uri": "api/logout",
+        "method": "DELETE",
+        "default": true,
+        "roles": [
+            "user"
+        ]
+    },
+    {
+        "name": {
+            "uz": "api/data/one-id",
+            "ru": null,
+            "en": null
+        },
+        "uri": "api/data/one-id",
+        "method": "GET",
+        "default": true,
+        "roles": [
+            "user"
+        ]
+    },
+    {
+        "name": {
+            "uz": "api/data/one-id/callback",
+            "ru": null,
+            "en": null
+        },
+        "uri": "api/data/one-id/callback",
+        "method": "GET",
+        "default": true,
+        "roles": [
+            "user"
+        ]
+    },
+    {
+        "name": {
+            "uz": "api/applications",
+            "ru": null,
+            "en": null
+        },
+        "uri": "api/applications",
+        "method": "GET",
+        "default": true,
+        "roles": [
+            "user"
+        ]
+    },
+    {
+        "name": {
+            "uz": "api/applications/statuses",
+            "ru": null,
+            "en": null
+        },
+        "uri": "api/applications/statuses",
+        "method": "GET",
+        "default": true,
+        "roles": [
+            "user"
+        ]
+    },
+    {
+        "name": {
+            "uz": "api/applications",
+            "ru": null,
+            "en": null
+        },
+        "uri": "api/applications",
+        "method": "POST",
+        "default": true,
+        "roles": [
+            "user"
+        ]
+    },
+    {
+        "name": {
+            "uz": "api/applications/{id}",
+            "ru": null,
+            "en": null
+        },
+        "uri": "api/applications/{id}",
+        "method": "GET",
+        "default": true,
+        "roles": [
+            "user"
+        ]
+    },
+    {
+        "name": {
+            "uz": "api/profile/verify",
+            "ru": null,
+            "en": null
+        },
+        "uri": "api/profile/verify",
+        "method": "PUT",
+        "default": true,
+        "roles": [
+            "user"
+        ]
+    },
+    {
+        "name": {
+            "uz": "api/profile/verify/code",
+            "ru": null,
+            "en": null
+        },
+        "uri": "api/profile/verify/code",
+        "method": "POST",
+        "default": true,
+        "roles": [
+            "user"
+        ]
+    },
+    {
+        "name": {
+            "uz": "api/profile/cabinet/sudbo",
+            "ru": null,
+            "en": null
+        },
+        "uri": "api/profile/cabinet/sudbo",
+        "method": "GET",
+        "default": true,
+        "roles": [
+            "court_administrator"
+        ]
+    },
+    {
+        "name": {
+            "uz": "api/profile/cabinet/investor",
+            "ru": null,
+            "en": null
+        },
+        "uri": "api/profile/cabinet/investor",
+        "method": "GET",
+        "default": true,
+        "roles": [
+            "investor"
+        ]
+    },
+    {
+        "name": {
+            "uz": "api/profile/cabinet/candidate",
+            "ru": null,
+            "en": null
+        },
+        "uri": "api/profile/cabinet/candidate",
+        "method": "GET",
+        "default": true,
+        "roles": [
+            "supervisory_member"
+        ]
+    },
+    {
+        "name": {
+            "uz": "api/profile/sudbo/adverts",
+            "ru": null,
+            "en": null
+        },
+        "uri": "api/profile/sudbo/adverts",
+        "method": "GET",
+        "default": true,
+        "roles": [
+            "court_administrator"
+        ]
+    },
+    {
+        "name": {
+            "uz": "api/profile/sudbo/adverts",
+            "ru": null,
+            "en": null
+        },
+        "uri": "api/profile/sudbo/adverts",
+        "method": "POST",
+        "default": true,
+        "roles": [
+            "court_administrator"
+        ]
+    },
+    {
+        "name": {
+            "uz": "api/profile",
+            "ru": null,
+            "en": null
+        },
+        "uri": "api/profile",
+        "method": "GET",
+        "default": true,
+        "roles": [
+            "user"
+        ]
+    },
+    {
+        "name": {
+            "uz": "api/profile/sessions",
+            "ru": null,
+            "en": null
+        },
+        "uri": "api/profile/sessions",
+        "method": "GET",
+        "default": true,
+        "roles": [
+            "user"
+        ]
+    },
+    {
+        "name": {
+            "uz": "api/profile/sessions/{device}/terminate",
+            "ru": null,
+            "en": null
+        },
+        "uri": "api/profile/sessions/{device}/terminate",
+        "method": "DELETE",
+        "default": true,
+        "roles": [
+            "user"
+        ]
+    },
+    {
+        "name": {
+            "uz": "api/profile",
+            "ru": null,
+            "en": null
+        },
+        "uri": "api/profile",
+        "method": "PUT",
+        "default": true,
+        "roles": [
+            "user"
+        ]
+    },
+    {
+        "name": {
+            "uz": "api/profile/security",
+            "ru": null,
+            "en": null
+        },
+        "uri": "api/profile/security",
+        "method": "PUT",
+        "default": true,
+        "roles": [
+            "user"
+        ]
+    },
+    {
+        "name": {
+            "uz": "api/meeting-notices",
+            "ru": null,
+            "en": null
+        },
+        "uri": "api/meeting-notices",
+        "method": "POST",
+        "default": false,
+        "roles": [
+            "supervisory_member"
+        ]
+    },
+    {
+        "name": {
+            "uz": "api/meeting-notices/forms",
+            "ru": null,
+            "en": null
+        },
+        "uri": "api/meeting-notices/forms",
+        "method": "GET",
+        "default": false,
+        "roles": [
+            "supervisory_member"
+        ]
+    },
+    {
+        "name": {
+            "uz": "api/meeting-notices/types",
+            "ru": null,
+            "en": null
+        },
+        "uri": "api/meeting-notices/types",
+        "method": "GET",
+        "default": false,
+        "roles": [
+            "supervisory_member"
+        ]
+    },
+    {
+        "name": {
+            "uz": "api/meeting-notices/agendas",
+            "ru": null,
+            "en": null
+        },
+        "uri": "api/meeting-notices/agendas",
+        "method": "GET",
+        "default": false,
+        "roles": [
+            "supervisory_member"
+        ]
+    }
+]

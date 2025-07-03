@@ -1,0 +1,114 @@
+[
+    {
+        "name": {
+            "uz": "Andijon viloyati",
+            "ru": "Андижанская область",
+            "en": "Andijan region"
+        },
+        "soato": 1703
+    },
+    {
+        "name": {
+            "uz": "Buxoro viloyati",
+            "ru": "Бухарская область",
+            "en": "Bukhara region"
+        },
+        "soato": 1706
+    },
+    {
+        "name": {
+            "uz": "Farg'ona viloyati",
+            "ru": "Ферганская область",
+            "en": "Fergana region"
+        },
+        "soato": 1730
+    },
+    {
+        "name": {
+            "uz": "Jizzax viloyati",
+            "ru": "Джизакская область",
+            "en": "Jizzakh region"
+        },
+        "soato": 1708
+    },
+    {
+        "name": {
+            "uz": "Xorazm viloyati",
+            "ru": "Хорезмская область",
+            "en": "Khorezm region"
+        },
+        "soato": 1733
+    },
+    {
+        "name": {
+            "uz": "Namangan viloyati",
+            "ru": "Наманганская область",
+            "en": "Namangan region"
+        },
+        "soato": 1714
+    },
+    {
+        "name": {
+            "uz": "Navoiy viloyati",
+            "ru": "Навоийская область",
+            "en": "Navoi region"
+        },
+        "soato": 1712
+    },
+    {
+        "name": {
+            "uz": "Qashqadaryo viloyati",
+            "ru": "Кашкадарьинская область",
+            "en": "Kashkadarya region"
+        },
+        "soato": 1710
+    },
+    {
+        "name": {
+            "uz": "Samarqand viloyati",
+            "ru": "Самаркандская область",
+            "en": "Samarkand region"
+        },
+        "soato": 1718
+    },
+    {
+        "name": {
+            "uz": "Sirdaryo viloyati",
+            "ru": "Сырдарьинская область",
+            "en": "Syrdarya region"
+        },
+        "soato": 1724
+    },
+    {
+        "name": {
+            "uz": "Surxondaryo viloyati",
+            "ru": "Сурхандарьинская область",
+            "en": "Surkhandarya region"
+        },
+        "soato": 1722
+    },
+    {
+        "name": {
+            "uz": "Toshkent viloyati",
+            "ru": "Ташкентская область",
+            "en": "Tashkent region"
+        },
+        "soato": 1727
+    },
+    {
+        "name": {
+            "uz": "Toshkent shahri",
+            "ru": "город Ташкент",
+            "en": "Tashkent city"
+        },
+        "soato": 1726
+    },
+    {
+        "name": {
+            "uz": "Qoraqalpog'iston Respublikasi",
+            "ru": "Республика Каракалпакстан",
+            "en": "Republic of Karakalpakstan"
+        },
+        "soato": 1735
+    }
+]

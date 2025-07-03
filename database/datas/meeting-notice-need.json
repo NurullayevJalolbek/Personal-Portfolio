@@ -1,0 +1,46 @@
+[
+    {
+        "name": {
+            "uz": "Navbatdan tashqari",
+            "cyrl": "Навбатдан ташқари",
+            "ru": "Вне очереди",
+            "en": "Outside of the queue"
+        },
+        "code": "outside-queue",
+        "position": 1,
+        "table_name": "meeting-types"
+    },
+    {
+        "name": {
+            "uz": "Joyida qatnashish",
+            "cyrl": "Жойида қатнашиш",
+            "ru": "Участие на месте",
+            "en": "Participating in place"
+        },
+        "code": "participating-place",
+        "position": 1,
+        "table_name": "meeting-forms"
+    },
+    {
+        "name": {
+            "uz": "Korxonani qayta tashkil etish yoki tugatish",
+            "cyrl": "Корхонани қайта ташкил этиш ёки тугатиш",
+            "ru": "Реорганизация или ликвидация предприятия",
+            "en": "Reorganization or liquidation of the enterprise"
+        },
+        "code": "reorganization-liquidation-enterprise",
+        "position": 1,
+        "table_name": "agenda-types"
+    },
+    {
+        "name": {
+            "uz": "Sho’ba va tobe xo‘jalik jamiyatlarini tashkil etish",
+            "cyrl": "Шўба ва тобе хўжалик жамиятларини ташкил этиш",
+            "ru": "Создание отраслевых и дочерних хозяйственных обществ",
+            "en": "Establishment of branch and subsidiary economic societies"
+        },
+        "code": "establishment-branch-subsidiary-societies",
+        "position": 2,
+        "table_name": "agenda-types"
+    }
+]

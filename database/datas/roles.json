@@ -1,0 +1,38 @@
+[
+    {
+        "name": {
+            "uz": "Superadmin",
+            "ru": "Суперадмин",
+            "en": "Superadmin"
+        },
+        "code": "super_admin",
+        "group": "admin"
+    },
+    {
+        "name": {
+            "uz": "Moderator",
+            "ru": "Модератор",
+            "en": "Moderator"
+        },
+        "code": "moderator",
+        "group": "admin"
+    },
+    {
+        "name": {
+            "uz": "Foydalanuvchi",
+            "ru": "Пользователь",
+            "en": "User"
+        },
+        "code": "user",
+        "group": "user"
+    },
+    {
+        "name": {
+            "uz": "Investor",
+            "ru": "Инвестор",
+            "en": "Investor"
+        },
+        "code": "investor",
+        "group": "user"
+    }
+]

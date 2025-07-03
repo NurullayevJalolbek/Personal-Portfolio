@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'active' => 'Фаол',
+    'inactive' => 'Фаол эмас',
+    'admin' => 'Админ',
+    'user' => 'Фойдаланувчи',
+    'sent' => 'Юборилган',
+    'process' => 'Жараёнда',
+    'wrong' => 'Хато',
+    'read' => 'Ўқилган',
+    'answered' => 'Жавоб берилган',
+    'legal' => 'Юридик шахс',
+    'physical' => 'Жисмоний шахс',
+    'sms' => 'SMS хабарнома',
+    'push' => 'PUSH хабарнома',
+    'phone' => 'Телефон рақам',
+    'telegram' => 'Telegram',
+    'telegram_bot' => 'Telegram бот',
+    'email' => 'Э-почта',
+    'web_site' => 'Веб сайт',
+    'facebook' => 'Facebook',
+    'you_tube' => 'YouTube',
+    'services' => 'Хизматлар',
+    'general-datas' => 'Умумий маълумотлар',
+];

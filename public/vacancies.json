@@ -1,0 +1,110 @@
+{
+    "response_code": 200,
+    "response_msg": "Successful",
+    "send_date": "24.10.2024 17:21",
+    "data": {
+        "institutionName": "Ўзбекистон Республикаси Давлат активларини бошқариш агентлиги",
+        "departments": [
+            {
+                "departmentName": "Specialists on privatization of state assets",
+                "positions": [
+                    {
+                        "id": 5651,
+                        "path": "https://vacancy.argos.uz/hrm-vacancy-detail/5651",
+                        "positionName": "Chief Specialist",
+                        "departmentName": "Specialists on privatization of state assets",
+                        "isInternal": false,
+                        "isDisability": false,
+                        "salary": 2960580,
+                        "institutionName": "Tashkent Regional Office of the State Asset Management Agency",
+                        "locationName": "Tashkent region",
+                        "rate": 1,
+                        "workExperienceYears": 2,
+                        "startDate": "2024-10-23T00:00:00",
+                        "endDate": "2024-10-27T23:59:59.999999",
+                        "applicationCount": 12,
+                        "status": 2
+                    }
+                ]
+            },
+            {
+                "departmentName": "Specialists on privatization of state assets",
+                "positions": [
+                    {
+                        "id": 5651,
+                        "path": "https://vacancy.argos.uz/hrm-vacancy-detail/5651",
+                        "positionName": "Departament boshlig'ining birinchi o'rinbosari Boshqarma boshlig'i",
+                        "departmentName": "Specialists on privatization of state assets",
+                        "isInternal": false,
+                        "isDisability": false,
+                        "salary": 2960580,
+                        "institutionName": "Tashkent Regional Office of the State Asset Management Agency",
+                        "locationName": "Tashkent region",
+                        "rate": 1,
+                        "workExperienceYears": 2,
+                        "startDate": "2024-10-23T00:00:00",
+                        "endDate": "2024-10-27T23:59:59.999999",
+                        "applicationCount": 12,
+                        "status": 2
+                    },
+                    {
+                        "id": 5651,
+                        "path": "https://vacancy.argos.uz/hrm-vacancy-detail/5651",
+                        "positionName": "Departament boshlig'ining birinchi o'rinbosari Boshqarma boshlig'i",
+                        "departmentName": "Specialists on privatization of state assets",
+                        "isInternal": false,
+                        "isDisability": false,
+                        "salary": 2960580,
+                        "institutionName": "Tashkent Regional Office of the State Asset Management Agency",
+                        "locationName": "Tashkent region",
+                        "rate": 1,
+                        "workExperienceYears": 2,
+                        "startDate": "2024-10-23T00:00:00",
+                        "endDate": "2024-10-27T23:59:59.999999",
+                        "applicationCount": 12,
+                        "status": 2
+                    }
+                ]
+            },
+            {
+                "departmentName": "Davlat aktivlarini xususiylashtirish boyicha mutaxassislar",
+                "positions": [
+                    {
+                        "id": 5651,
+                        "path": "https://vacancy.argos.uz/hzm-vacancy-detail/5651",
+                        "positionName": "Bosh mutaxassis",
+                        "departmentName": "Davlat aktivlarini xususiylashtirish boyicha mutaxassislar",
+                        "isInternal": false,
+                        "isDisability": false,
+                        "salary": 2960580,
+                        "institutionName": "Davlat aktivlarini boshqarish agentligining Toshkent viloyati hudu",
+                        "locationName": "Toshkent viloyati",
+                        "rate": 1,
+                        "workExperienceYears": 2,
+                        "startDate": "2024-10-23T00:00:00",
+                        "endDate": "2024-10-27T23:59:59.999999",
+                        "applicationCount": 12,
+                        "status": 2
+                    },
+                    {
+                        "id": 5651,
+                        "path": "https://vacancy.argos.uz/hzm-vacancy-detail/5651",
+                        "positionName": "Bosh mutaxassis",
+                        "departmentName": "Davlat aktivlarini xususiylashtirish boyicha mutaxassislar",
+                        "isInternal": false,
+                        "isDisability": false,
+                        "salary": 2960580,
+                        "institutionName": "Davlat aktivlarini boshqarish agentligining Toshkent viloyati hudu",
+                        "locationName": "Toshkent viloyati",
+                        "rate": 1,
+                        "workExperienceYears": 2,
+                        "startDate": "2024-10-23T00:00:00",
+                        "endDate": "2024-10-27T23:59:59.999999",
+                        "applicationCount": 12,
+                        "status": 2
+                    }
+                ]
+            }
+        ]
+    }
+}

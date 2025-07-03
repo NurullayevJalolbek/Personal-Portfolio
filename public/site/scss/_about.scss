@@ -1,0 +1,154 @@
+.university-hero {
+  &::before {
+    background-image: url("../images/university-hero.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    mix-blend-mode: screen;
+  }
+}
+
+.university-info {
+  overflow: hidden;
+
+  & .wrapper {
+    display: flex;
+    gap: 30px;
+    padding: 45px 15px 70px;
+
+    @media screen and (max-width: 1400px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  & .pic {
+    max-width: 670px;
+    width: 100%;
+    max-height: 435px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-shrink: 0;
+
+    @media screen and (max-width: 1400px) {
+      height: 435px;
+    }
+
+    @media screen and (max-width: 576px) {
+      height: 300px;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: url("../images/university-info.png") center/cover no-repeat;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(40, 56, 145, 0.3);
+    }
+
+    & .icon {
+      border: 3px dashed rgba(255, 255, 255, 0.9);
+      border-radius: 50px;
+      padding: 10px;
+      z-index: 1;
+    }
+  }
+
+  & .desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    & > h2 {
+      font-family: "HelveticaNeueCyr", sans-serif;
+      font-weight: 700;
+      font-size: 34px;
+      line-height: 100%;
+      color: $blueDark;
+      padding-bottom: 20px;
+    }
+  }
+
+  & .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    & > p {
+      font-family: "HelveticaNeueCyr", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 170%;
+      color: $black;
+    }
+  }
+}
+
+.university-stats {
+  background: rgba(246, 248, 253, 0.4);
+  border-bottom: 1px solid $gray;
+  border-top: 1px solid $gray;
+  position: relative;
+  overflow: hidden;
+
+  & .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    padding: 45px 15px;
+
+    & > h2 {
+      font-family: "HelveticaNeueCyr", sans-serif;
+      font-weight: 700;
+      font-size: 34px;
+      line-height: 159%;
+      color: $blueDark;
+    }
+  }
+
+  & .cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+    @media screen and (max-width: 1200px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  & .card {
+    & .info {
+      @media screen and (max-width: 1400px) {
+        padding: 32px 32px 39px 0;
+      }
+    }
+  }
+
+  .bg-effect {
+    width: 410px;
+    height: 791px;
+    border-radius: 100%;
+    background: $cyanLight;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .bg-effect.first {
+    left: -15%;
+    bottom: -184%;
+  }
+
+  .bg-effect.second {
+    right: -15%;
+    top: -184%;
+  }
+}

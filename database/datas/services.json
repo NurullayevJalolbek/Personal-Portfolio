@@ -1,0 +1,327 @@
+[
+    {
+        "name": {
+            "uz": "Interaktiv xizmatlar",
+            "ru": "Интерактивные услуги",
+            "en": "Interactive services"
+        },
+        "title": {
+            "uz": "Davlat aktivlarini boshqarish agentligi tomonidan ko’rsatiladigan davlat xizmatlari",
+            "cyrl": "Давлат активларини бошқариш агентлиги томонидан кўрсатиладиган давлат хизматлари",
+            "ru": "Государственные услуги, предоставляемые Агентством управления государственными активами",
+            "en": "Public services provided by the State Assets Management Agency"
+        },
+        "code": "interactive-services",
+        "position": 1,
+        "image": "interactive-services.svg",
+        "slider_image": "slider-interactive-services.png",
+        "sub_services": [
+            {
+                "name": {
+                    "uz": "Bankrotlik to'g'risida ma'lumot",
+                    "ru": "Информация о банкротстве",
+                    "en": "Obtaining information about the bankruptcy of the organization"
+                },
+                "code": 721,
+                "position": 1,
+                "url": "https://my.gov.uz/oz/service/721",
+                "image": "sub-interactive-service-721.svg"
+            },
+            {
+                "name": {
+                    "uz": "Yer uchastkasini xususiylashtirish",
+                    "ru": "Приватизация земельных участков",
+                    "en": "Privatization of non-agricultural land plot"
+                },
+                "code": 313,
+                "position": 2,
+                "url": "https://my.gov.uz/oz/service/313",
+                "image": "sub-interactive-service-313.svg"
+            },
+            {
+                "name": {
+                    "uz": "Bo‘sh turgan davlat obyektlari to‘g‘risida maʼlumot",
+                    "ru": "Информация о пустующих государственных объектах",
+                    "en": "Acquaintance with information about free objects"
+                },
+                "code": 756,
+                "position": 3,
+                "url": "https://my.gov.uz/oz/service/756",
+                "image": "sub-interactive-service-756.svg"
+            },
+            {
+                "name": {
+                    "uz": "Yer uchastkalarini xususiylashtirishning birlamchi miqdori",
+                    "ru": "Первоначальная стоимость приватизации земельных участков",
+                    "en": "Calculation of the initial amount of privatization of non-agricultural land plots"
+                },
+                "code": 643,
+                "position": 4,
+                "url": "https://my.gov.uz/oz/service/643",
+                "image": "sub-interactive-service-643.svg"
+            },
+            {
+                "name": {
+                    "uz": "Davlat ulushiga ega korxonalar bo‘yicha maʼlumot",
+                    "ru": "Информация о государственных предприятиях",
+                    "en": "Providing information about state-owned enterprises"
+                },
+                "code": 1011,
+                "position": 5,
+                "url": "https://my.gov.uz/oz/service/1011",
+                "image": "sub-interactive-service-1011.svg"
+            },
+            {
+                "name": {
+                    "uz": "Sud boshqaruvchisi malaka attestatini berish",
+                    "ru": "Выдача квалификационного аттестата судебного управляющего",
+                    "en": "Certification of court administrators and issuance of qualification certificates"
+                },
+                "code": 866,
+                "position": 6,
+                "url": "https://my.gov.uz/oz/service/866",
+                "image": "sub-interactive-service-866.svg"
+            },
+            {
+                "name": {
+                    "uz": "Rieltorning malaka sertifikatini berish",
+                    "ru": "Выдача квалификационного сертификата риэлтора",
+                    "en": "Conducting qualification exams of realtors and issuing a qualification certificate to them"
+                },
+                "code": 381,
+                "position": 7,
+                "url": "https://my.gov.uz/oz/service/381",
+                "image": "sub-interactive-service-381.svg"
+            },
+            {
+                "name": {
+                    "uz": "Davlat mulkini xususiylashtirish",
+                    "ru": "Приватизация государственного имущества",
+                    "en": "Submission of an application for the privatization of state property"
+                },
+                "code": 590,
+                "position": 8,
+                "url": "https://my.gov.uz/oz/service/590",
+                "image": "sub-interactive-service-590.svg"
+            },
+            {
+                "name": {
+                    "uz": "Davlat mulkining birlamchi ijara haqi miqdorini hisoblash",
+                    "ru": "Расчет первичной арендной платы за государственное имущество",
+                    "en": "Calculation of primary rent of state property"
+                },
+                "code": 1026,
+                "position": 9,
+                "url": "https://my.gov.uz/oz/service/1026",
+                "image": "sub-interactive-service-1026.svg"
+            },
+            {
+                "name": {
+                    "uz": "Ko‘chmas mulkni xususiylashtirish to‘g‘risidagi guvohnoma va order",
+                    "ru": "Свидетельство и ордер о приватизации недвижимости",
+                    "en": "Submission of a certificate of privatization of real estate objects and a warrant"
+                },
+                "code": 848,
+                "position": 10,
+                "url": "https://my.gov.uz/oz/service/848",
+                "image": "sub-interactive-service-848.svg"
+            },
+            {
+                "name": {
+                    "uz": "Rieltorning malaka sertifikati muddatini uzaytirish",
+                    "ru": "Продление квалификационного аттестата риэлтора",
+                    "en": "Qualification exams for real estate agents to renew the validity of the qualification certificate"
+                },
+                "code": 385,
+                "position": 11,
+                "url": "https://my.gov.uz/oz/service/385",
+                "image": "sub-interactive-service-385.svg"
+            },
+            {
+                "name": {
+                    "uz": "Baholovchilarga toifa berish uchun ariza berish",
+                    "ru": "Присвоения категории оценщикам",
+                    "en": "Submission of an application for assigning categories to appraisers"
+                },
+                "code": 663,
+                "position": 12,
+                "url": "https://my.gov.uz/oz/service/663",
+                "image": "sub-interactive-service-663.svg"
+            },
+            {
+                "name": {
+                    "uz": "Baholovchining malaka sertifikati muddatini uzaytirish",
+                    "ru": "Продление квалификационного сертификата оценщика",
+                    "en": "Qualification exams of appraisers to extend the qualification certificate"
+                },
+                "code": 384,
+                "position": 13,
+                "url": "https://my.gov.uz/oz/service/384",
+                "image": "sub-interactive-service-384.svg"
+            },
+            {
+                "name": {
+                    "uz": "Baholovchining malaka sertifikati",
+                    "ru": "Квалификационный сертификат оценщика",
+                    "en": "Conducting qualification exams of appraisers and issuing a qualification certificate to them"
+                },
+                "code": 380,
+                "position": 14,
+                "url": "https://my.gov.uz/oz/service/380",
+                "image": "sub-interactive-service-380.svg"
+            },
+            {
+                "name": {
+                    "uz": "Baholovchi sertifikatini qayta rasmiylashtirish",
+                    "ru": "Повторное офомление сертификата оценщика",
+                    "en": "Reissuance of the appraiser's qualification certificate"
+                },
+                "code": 402,
+                "position": 15,
+                "url": "https://my.gov.uz/oz/service/402",
+                "image": "sub-interactive-service-402.svg"
+            },
+            {
+                "name": {
+                    "uz": "Rieltor sertifikatini qayta rasmiylashtirish",
+                    "ru": "Повторное офомление сертификата риэлтора",
+                    "en": "Conducting qualification exams for realtors and reissuing a qualification certificate"
+                },
+                "code": 395,
+                "position": 16,
+                "url": "https://my.gov.uz/oz/service/395",
+                "image": "sub-interactive-service-395.svg"
+            },
+            {
+                "name": {
+                    "uz": "“E-AUKSION”dagi g'oliblik bayonnomasini olish",
+                    "ru": "Получение протокола о выигрыше в «E-AUKSION»",
+                    "en": "Protocol of winning in electronic auctions conducted via the \"E-AUKSION\""
+                },
+                "code": 341,
+                "position": 17,
+                "url": "https://my.gov.uz/oz/service/341",
+                "image": "sub-interactive-service-341.svg"
+            }
+        ]
+    },
+    {
+        "name": {
+            "uz": "Ijara",
+            "ru": "Арендовать",
+            "en": "Rent"
+        },
+        "title": {
+            "uz": "Ijaraga beriladigan Davlat aktivlariga oid ma'lumotlarni ko‘rish va ulashish.",
+            "cyrl": "Ижарага бериладиган Давлат активларига оид маълумотларни кўриш ва улашиш.",
+            "ru": "Просмотр и обмен информацией о государственных активах, доступных для аренды.",
+            "en": "View and share information about state assets available for lease."
+        },
+        "code": "rent",
+        "position": 2,
+        "image": "rent.svg",
+        "slider_image": "slider-rent.png"
+    },
+    {
+        "name": {
+            "uz": "To'lovga qobiliyatsizlik",
+            "ru": "Неспособность платить",
+            "en": "Inability to pay"
+        },
+        "title": {
+            "uz": "To‘lovga qobiliyatsiz korxonalar va ularning sud boshqaruvchilari haqidagi ma’lumotlar",
+            "cyrl": "Тўловга қобилиятсиз корхоналар ва уларнинг суд бошқарувчилари ҳақидаги маълумотлар",
+            "ru": "Информация о несостоятельных предприятиях и их судебных управляющих.",
+            "en": "Information about insolvent enterprises and their court-appointed managers"
+        },
+        "code": "inability-pay",
+        "position": 3,
+        "image": "inability-pay.svg",
+        "slider_image": "slider-inability-pay.png"
+    },
+    {
+        "name": {
+            "uz": "Baholash va rielterlik",
+            "ru": "Оценка и недвижимость",
+            "en": "Appraisal and realtorship"
+        },
+        "title": {
+            "uz": "Baholash va rieltorlik faoliyatiga oid ma’lumotlar, sertifikatlarni tekshirish",
+            "cyrl": "Бахолаш ва риэлторлик фаолиятига оид маълумотлар, сертификатларни текшириш",
+            "ru": "Информация об оценочной и риэлторской деятельности, проверка сертификатов",
+            "en": "Information on valuation and real estate activities, with certificate verification"
+        },
+        "code": "appraisal-realtorship",
+        "position": 4,
+        "image": "appraisal-realtorship.svg",
+        "slider_image": "slider-appraisal-realtorship.png"
+    },
+    {
+        "name": {
+            "uz": "Korporativ boshqaruv",
+            "ru": "Корпоративное управление",
+            "en": "Corporate management"
+        },
+        "title": {
+            "uz": "Davlat ulushi mavjud korxonalarning boshqaruvi haqida ma’lumotlar",
+            "cyrl": "Давлат улуши мавжуд корхоналарнинг бошқаруви ҳақида маълумотлар",
+            "ru": "Информация об управлении предприятиями с государственной долей",
+            "en": "Information on the governance of enterprises with state ownership"
+        },
+        "code": "corporate-management",
+        "position": 5,
+        "image": "corporate-management.svg",
+        "slider_image": "slider-corporate-management.png"
+    },
+    {
+        "name": {
+            "uz": "E-auksion",
+            "ru": "Э-аукцион",
+            "en": "E-auction"
+        },
+        "title": {
+            "uz": "E-auksion platformasida sotuvga qo'yilgan Davlat aktivlariga oid ma'lumotlar",
+            "cyrl": "Е-аукцион платформасида сотувга қўйилган Давлат активларига оид маълумотлар",
+            "ru": "Информация о государственных активах, выставленных на продажу на платформе E-auksion",
+            "en": "Information about state assets listed for sale on the E-auction platform"
+        },
+        "code": "e-auction",
+        "position": 6,
+        "image": "e-auction.svg",
+        "slider_image": "slider-e-auction.png"
+    },
+    {
+        "name": {
+            "uz": "Sud boshqaruvchilari attestatsiyasi",
+            "ru": "Аттестация судебных управляющих",
+            "en": "Certification of court-appointed managers"
+        },
+        "title": {
+            "uz": "Sud boshqaruvchilariga tegishli attestatsiya hujjatining haqiqiyligini tekshirish",
+            "cyrl": "Суд бошқарувчиларига тегишли аттестация ҳужжатининг ҳақиқийлигини текшириш",
+            "ru": "Проверка подлинности аттестационного документа судебных управляющих",
+            "en": "Verify the authenticity of the certification document for court-appointed managers"
+        },
+        "code": "attestation-check",
+        "position": 7,
+        "image": "attestation-check.svg",
+        "slider_image": "slider-attestation-check.png"
+    },
+    {
+        "name": {
+            "uz": "Onlayn murojaat",
+            "ru": "Подать заявку онлайн",
+            "en": "Apply online"
+        },
+        "title": {
+            "uz": "O‘zbekiston Respublikasi Davlat aktivlarini boshqarish agentligiga murojaat",
+            "cyrl": "Ўзбекистон Республикаси Давлат активларини бошқариш агентлигига мурожаат",
+            "ru": "Обратиться в Агентство по управлению государственными активами Республики Узбекистан",
+            "en": "Apply to the State Assets Management Agency of the Republic of Uzbekistan"
+        },
+        "code": "apply-online",
+        "position": 8,
+        "image": "apply-online.svg",
+        "slider_image": "slider-apply-online.png"
+    }
+]

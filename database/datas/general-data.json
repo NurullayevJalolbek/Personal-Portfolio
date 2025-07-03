@@ -1,0 +1,92 @@
+[
+    {
+        "name": {
+            "uz": "Statistika va hisobot",
+            "ru": "Статистика и отчетность",
+            "en": "Statistic and reports"
+        },
+        "code": "statistic-report",
+        "position": 1,
+        "image": "statistic-report.svg"
+    },
+    {
+        "name": {
+            "uz": "Agentlik haqida",
+            "ru": "О агентстве",
+            "en": "About agency"
+        },
+        "code": "about-agency",
+        "position": 2,
+        "image": "about-agency.svg"
+    },
+    {
+        "name": {
+            "uz": "To'lovga qobiliyatsizlar",
+            "ru": "Неплатежеспособный",
+            "en": "Insolvent"
+        },
+        "code": "insolvent",
+        "position": 3,
+        "image": "insolvent.svg"
+    },
+    {
+        "name": {
+            "uz": "Korxonalar reestri",
+            "ru": "Реестр предприятий",
+            "en": "Register of enterprises"
+        },
+        "code": "register-enterprises",
+        "position": 4,
+        "image": "register-enterprises.svg"
+    },
+    {
+        "name": {
+            "uz": "Davlat aktivlari",
+            "ru": "Госактивы",
+            "en": "State assets"
+        },
+        "code": "state-assets",
+        "position": 5,
+        "image": "state-assets.svg"
+    },
+    {
+        "name": {
+            "uz": "Yangiliklar va e'lonlar",
+            "ru": "Новости и объявления",
+            "en": "News and ads"
+        },
+        "code": "news-ads",
+        "position": 6,
+        "image": "news-ads.svg"
+    },
+    {
+        "name": {
+            "uz": "Faoliyat video lavhalarda",
+            "ru": "Видео активности",
+            "en": "Activity videos"
+        },
+        "code": "activity-videos",
+        "position": 7,
+        "image": "activity-videos.svg"
+    },
+    {
+        "name": {
+            "uz": "Savol-javob",
+            "ru": "Вопрос и ответ",
+            "en": "Question and answer"
+        },
+        "code": "question-answer",
+        "position": 8,
+        "image": "question-answer.svg"
+    },
+    {
+        "name": {
+            "uz": "Ochiq ma'lumotlar",
+            "ru": "Открытые данные",
+            "en": "Open data"
+        },
+        "code": "open-data",
+        "position": 9,
+        "image": "open-data.svg"
+    }
+]

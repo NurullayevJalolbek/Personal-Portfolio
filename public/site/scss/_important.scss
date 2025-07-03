@@ -1,0 +1,8 @@
+// Reinforce default element styles because of conflicts with admin editor's CSS styles
+b {
+  font-weight: bold;
+}
+
+li {
+  font-weight: unset;
+}
