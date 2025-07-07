@@ -45,6 +45,5 @@ class LanguageSeeder extends Seeder
             ]);
 
         $id = DB::table('languages')->orderBy('id', 'desc')->first()?->id;
-        DB::statement('alter sequence languages_id_seq restart with ' . ($id + 1));
     }
 }

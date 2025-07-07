@@ -19,46 +19,23 @@ class UserSeeder extends Seeder
         $admin = Role::where('code', RoleCodeEnum::SUPER_ADMIN->value)->first();
         $moderator = Role::where('code', RoleCodeEnum::MODERATOR->value)->first();
 
-        DB::table('users')->truncate();
+        DB::table('users')->delete();
 
         DB::table('users')
             ->insert([
                 [
-                    'surname'       => 'Super',
-                    'name'          => 'Admin',
+                    'surname'       => 'Nurullayev',
+                    'name'          => 'Jalolbek',
                     'patronymic'    => '',
-                    'username'      => 'admin',
-                    'password'      => Hash::make('admin'),
+                    'username'      => 'nurullayev',
+                    'email'=> 'nurullayevjalolbek28@gmail.com',
+                    'password'      => Hash::make('@JALOL200419762003'),
                     'role_id'       => $admin->id,
-                    'phone'         => '+998999999999',
-                    'pinfl'         => '52509016300025',
+                    'phone'         => '+998937381028',
+                    'pinfl'         => '',
                     'status'        => 'active',
-                ],
-                [
-                    'surname'       => 'Turdimurodov',
-                    'name'          => 'Bakhtishod',
-                    'patronymic'    => "",
-                    'username'      => 'mrbakhtishod',
-                    'password'      => Hash::make('mrbakhtishod'),
-                    'role_id'       => $admin->id,
-                    'phone'         => '+998998856345',
-                    'pinfl'         => '12341234123412',
-                    'status'        => 'active',
-                ],
-                [
-                    'surname'       => 'Moderator',
-                    'name'          => 'Moderator',
-                    'patronymic'    => '',
-                    'username'      => 'moderator',
-                    'password'      => Hash::make('moderator'),
-                    'role_id'       => $moderator->id,
-                    'phone'         => '+998998856345',
-                    'pinfl'         => '12341234123412',
-                    'status'        => 'active',
-                ],
+                ]
             ]);
 
-        $id = DB::table('users')->orderBy('id', 'desc')->first()?->id;
-        DB::statement('alter sequence users_id_seq restart with ' . ($id + 1));
     }
 }

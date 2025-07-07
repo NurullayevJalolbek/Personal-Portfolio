@@ -46,6 +46,5 @@ class ProgramsTableSeeder extends Seeder
         ));
 
         $lastId = \DB::table('programs')->orderBy('id', 'desc')->first();
-        \DB::statement('alter sequence programs_id_seq restart with ' . (intval($lastId->id) + 1));
     }
 }

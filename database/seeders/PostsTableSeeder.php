@@ -94,6 +94,5 @@ Image: Rasmda frontend dasturchi zamonaviy ish joyida ishlayotgani ko‘rsatilga
         ));
 
         $lastId = \DB::table('posts')->orderBy('id', 'desc')->first();
-        \DB::statement('alter sequence posts_id_seq restart with ' . (intval($lastId->id) + 1));
     }
 }

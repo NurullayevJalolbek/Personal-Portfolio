@@ -72,6 +72,5 @@ class CountriesTableSeeder extends Seeder
         ));
 
         $lastId = \DB::table('countries')->orderBy('id', 'desc')->first();
-        \DB::statement('alter sequence countries_id_seq restart with ' . (intval($lastId->id) + 1));
     }
 }

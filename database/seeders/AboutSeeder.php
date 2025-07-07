@@ -29,6 +29,5 @@ class AboutSeeder extends Seeder
         ));
 
         $lastId = \DB::table('about')->orderBy('id', 'desc')->first();
-        \DB::statement('alter sequence about_id_seq restart with ' . (intval($lastId->id) + 1));
     }
 }
