@@ -62,7 +62,6 @@
 
                 </div>
                 <h1 class="hero-title">Nurullayev Jalolbek</h1>
-                <h2 class="typing-text">PHP Backend Developer</h2>
                 <p class="hero-description">Building robust, scalable web applications with Laravel and modern PHP
                     technologies. Focused on clean code, performance, and security.</p>
                 <div class="d-flex justify-content-center gap-3">

@@ -57,25 +57,7 @@
             line-height: 1.2;
         }
         
-        .typing-text {
-            font-size: 2.5rem;
-            font-weight: 500;
-            color: var(--light-color);
-            position: relative;
-            display: inline-block;
-        }
         
-        .typing-text::after {
-            content: '';
-            position: absolute;
-            right: -10px;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 8px;
-            height: 4rem;
-            background: var(--primary-color);
-            animation: blink 0.8s infinite;
-        }
         
         @keyframes blink {
             0%, 100% { opacity: 1; }
@@ -254,9 +236,6 @@
                 font-size: 3.5rem;
             }
             
-            .typing-text {
-                font-size: 2rem;
-            }
         }
         
         @media (max-width: 768px) {
@@ -264,9 +243,6 @@
                 font-size: 2.75rem;
             }
             
-            .typing-text {
-                font-size: 1.75rem;
-            }
             
             .skills-container {
                 grid-template-columns: 1fr;
@@ -284,9 +260,6 @@
                 font-size: 2.25rem;
             }
             
-            .typing-text {
-                font-size: 1.5rem;
-            }
             
             .social-icons {
                 gap: 0.75rem;
