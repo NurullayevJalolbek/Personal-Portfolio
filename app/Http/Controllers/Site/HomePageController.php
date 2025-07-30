@@ -9,7 +9,7 @@ class HomePageController extends Controller
 {
     public function index(Request $request)
     {
-        return view('portfolio', []);
+        return view('portfolio.portfolio', []);
     }
 
 }
