@@ -76,17 +76,18 @@
     <section id="home" class="hero-section">
 
         <div class="container text-center hero-content">
-            <div class="mb-4 floating">
-                <img src="{{$home_section?->icon}}" alt="Rocket"
+            {{-- <div class="mb-4 floating">
+                <img src="{{ $home_section?->icon ? asset('assets/img/portfolio/' . $home_section->icon) : 'https://cdn-icons-png.flaticon.com/512/201/201623.png' }}"
+                    alt="Rocket"
                     style="
               height: 120px;
               filter: drop-shadow(0 0 20px rgba(124, 58, 237, 0.5));
             " />
-            </div>
+            </div> --}}
             <h1 class="hero-title animate__animated animate__fadeInDown">
                 {{ $home_section?->fullname_title }}
             </h1>
-            <h2 class="typing-text animate__animated animate__fadeIn animate__delay-1s"></h2>
+            {{-- <h2 class="typing-text animate__animated animate__fadeIn animate__delay-1s"></h2> --}}
             <p class="hero-description animate__animated animate__fadeIn animate__delay-1s">
                 {{ $home_section?->description }}
             </p>
@@ -113,27 +114,14 @@
             </div>
             <div class="row align-items-center">
                 <div class="col-lg-4 text-center mb-5 mb-lg-0">
-                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                    <img src="{{ $about_section?->image ? asset('assets/img/portfolio/' . $about_section->image) : 'https://cdn-icons-png.flaticon.com/512/201/201623.png' }}"
                         alt="Jalolbek Nurullayev" class="profile-image rounded-circle" />
                 </div>
                 <div class="col-lg-8 about-content">
-                    <h3 class="mb-4">Senior Backend Developer</h3>
+                    <h3 class="mb-4">{{ $about_section?->title }}</h3>
                     <p class="lead">
-                        I'm a passionate backend engineer with 5+ years of experience
-                        building scalable web applications and APIs.
+                        {{ $about_section?->description }}
                     </p>
-                    <p>
-                        My expertise lies in designing robust server-side architectures,
-                        optimizing database performance, and implementing secure
-                        authentication systems. I specialize in the Laravel ecosystem but
-                        also have experience with other PHP frameworks and technologies.
-                    </p>
-                    <p>
-                        When I'm not coding, you can find me contributing to open-source
-                        projects, mentoring junior developers, or exploring new
-                        technologies in the PHP ecosystem.
-                    </p>
-
                     <div class="row mt-4">
                         <div class="col-md-6">
                             <ul class="list-unstyled">
@@ -143,26 +131,26 @@
                                 </li>
                                 <li class="mb-2">
                                     <strong class="text-primary">Email:</strong>
-                                    jalolbek@example.com
+                                    nurullayevjalolbek28@gmail.com
                                 </li>
                                 <li class="mb-2">
-                                    <strong class="text-primary">Experience:</strong> 5+ Years
+                                    <strong class="text-primary">Experience:</strong> 1+ Years
                                 </li>
                             </ul>
                         </div>
                         <div class="col-md-6">
                             <ul class="list-unstyled">
                                 <li class="mb-2">
-                                    <strong class="text-primary">Phone:</strong> +998 90 123 45
+                                    <strong class="text-primary">Phone:</strong> +998 937381028
                                     67
                                 </li>
                                 <li class="mb-2">
                                     <strong class="text-primary">Location:</strong> Tashkent,
                                     Uzbekistan
                                 </li>
-                                <li class="mb-2">
+                                {{-- <li class="mb-2">
                                     <strong class="text-primary">Freelance:</strong> Available
-                                </li>
+                                </li> --}}
                             </ul>
                         </div>
                     </div>

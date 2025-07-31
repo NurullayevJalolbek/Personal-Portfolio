@@ -26,6 +26,7 @@ class DatabaseSeeder extends Seeder
             UserSeeder::class,
             //Portfolio
             HoomeSectionSeeder::class,
+            AboutSectionSeeder::class,
         ]);
         $this->call(PostsTableSeeder::class);
     }

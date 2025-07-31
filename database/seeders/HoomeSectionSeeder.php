@@ -19,7 +19,7 @@ class HoomeSectionSeeder extends Seeder
             'fullname_title' => 'Nurullayev Jalolbek',
             'icon' => 'https://cdn-icons-png.flaticon.com/512/201/201623.png',
             'description' => 'Men — PHP va Laravel dasturlash tillarida ishlovchi junior backend dasturchiman. Kodga muhabbat, yangilikka qiziqish va har doim o‘sishga intilish mening ustuvor yo‘nalishimdir.',
-            'background_image' => 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80',
+            'background_image' => 'iStock-1277731016-scaled-1.jpg',
             'subtitle' => 'Laravel backend bilan boshlanib, katta tizimlar tomon yo‘l',
         ]);
     }
