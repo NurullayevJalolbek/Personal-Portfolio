@@ -10,11 +10,11 @@ class HomeSection extends Model
 {
     use HasFile, HasApiTokens;
     protected $fillable = [
-        'title',
-        'subtitle',
+        'fullname_title',
+        'icon',
         'description',
         'background_image',
-        'image'
+        'subtitle'
     ];
 
 
