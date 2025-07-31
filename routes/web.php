@@ -2,10 +2,9 @@
 
 use App\Http\Controllers\Site\HomePageController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
-Route::get('/', function () {
-    return view('portfolio.portfolio');
-})->middleware('locale');
+Route::get('/', [HomeController::class, 'index'])->middleware('locale');
 
 Route::group(['middleware' => ['locale', 'visits']], function () {
 

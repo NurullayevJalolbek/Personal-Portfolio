@@ -3,6 +3,8 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+
+use App\Models\HomeSection;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -20,8 +22,10 @@ class DatabaseSeeder extends Seeder
 
             CountriesTableSeeder::class,
             ProgramsTableSeeder::class,
-            
+
             UserSeeder::class,
+            //Portfolio
+            HoomeSectionSeeder::class,
         ]);
         $this->call(PostsTableSeeder::class);
     }
